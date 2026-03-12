@@ -11,4 +11,4 @@ print_separator()
 # Output: ******************************
 
 ## 🖥️ Output Preview
-![Output Preview](screenshot/Capture.PNG)
+![Output Preview](screenshot)
