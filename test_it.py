@@ -1,7 +1,4 @@
 # test_it.py
+from cli_utils.separators import print_separator
 
-import cli_utils.separators
-
-cli_utils.separators.print_separator()
-cli_utils.separators.print_custom_separator("kavya",4)
-cli_utils.separators.print_box("Welcome kavya")
+print_separator()
