@@ -11,4 +11,4 @@ print_separator()
 # Output: ******************************
 
 ## 🖥️ Output Preview
-![Output Preview]([screenshot](https://github.com/kavyapc/cli_utils/tree/02b421b3a6c206dc16c94c8d29f96957b75feedc/screenshot))
+![Output Preview](screenshot/Capture.PNG)
