@@ -7,8 +7,12 @@ def print_separator():
 def print_custom_separator(char, length):
     print(char * int(length))
 
-def print_box(message, char="*"):
-    length = len(message) + 4
-    print(char * length)
-    print(f"{char} {message} {char}")
-    print(char * length)
+def print_box(message):
+    """Prints a message inside a yellow ASCII box."""
+    yellow = "\033[32m"
+    reset = "\033[31m"
+    length = len(message)
+
+    print(f"{yellow}+{'-' * (length + 2)}+{reset}")
+    print(f"{yellow}| {message} |{reset}")
+    print(f"{yellow}+{'-' * (length + 2)}+{reset}")
